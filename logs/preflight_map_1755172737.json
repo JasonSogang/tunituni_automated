@@ -1,0 +1,4556 @@
+{
+  "time": "2025-08-14T20:59:11",
+  "sn": 108,
+  "results": [
+    {
+      "path": "/parent/Appchild.asp?sn=108",
+      "status": 200,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild.asp?sn=108",
+      "len": 67919,
+      "has_form": true,
+      "saved": "logs/preflight_1755172737_0.html"
+    },
+    {
+      "path": "/parent/Appchild_write.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_write.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_apply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_apply.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_form.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_form.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_input.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_input.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_proc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_proc.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_ok.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_ok.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_insert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_insert.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_reg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_reg.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_request.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_request.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_submit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_submit.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_join.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_join.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildWrite.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildWrite.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildApply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildApply.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildForm.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildForm.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildInput.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildInput.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildProc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildProc.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildOk.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildOk.asp?sn=108",
+      "len": 4428,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildInsert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildInsert.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildReg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildReg.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildRequest.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildRequest.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildSubmit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildSubmit.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildJoin.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildJoin.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild.asp?sn=108",
+      "status": 200,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild.asp?sn=108",
+      "len": 67919,
+      "has_form": true,
+      "saved": "logs/preflight_1755172737_23.html"
+    },
+    {
+      "path": "/parent/AppChild_write.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_write.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_apply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_apply.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_form.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_form.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_input.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_input.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_proc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_proc.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_ok.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_ok.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_insert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_insert.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_reg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_reg.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_request.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_request.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_submit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_submit.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_join.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_join.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildWrite.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildWrite.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildApply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildApply.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildForm.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildForm.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildInput.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildInput.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildProc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildProc.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildOk.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildOk.asp?sn=108",
+      "len": 4428,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildInsert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildInsert.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildReg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildReg.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildRequest.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildRequest.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildSubmit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildSubmit.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildJoin.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildJoin.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild.asp?sn=108",
+      "status": 200,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild.asp?sn=108",
+      "len": 67919,
+      "has_form": true,
+      "saved": "logs/preflight_1755172737_46.html"
+    },
+    {
+      "path": "/parent/appchild_write.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_write.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_apply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_apply.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_form.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_form.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_input.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_input.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_proc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_proc.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_ok.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_ok.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_insert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_insert.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_reg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_reg.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_request.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_request.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_submit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_submit.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_join.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_join.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildWrite.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildWrite.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildApply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildApply.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildForm.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildForm.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildInput.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildInput.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildProc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildProc.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildOk.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildOk.asp?sn=108",
+      "len": 4428,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildInsert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildInsert.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildReg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildReg.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildRequest.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildRequest.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildSubmit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildSubmit.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildJoin.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildJoin.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply.asp?sn=108",
+      "len": 4428,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_write.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_write.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_apply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_apply.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_form.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_form.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_input.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_input.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_proc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_proc.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_ok.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_ok.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_insert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_insert.asp?sn=108",
+      "len": 4442,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_reg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_reg.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_request.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_request.asp?sn=108",
+      "len": 4444,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_submit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_submit.asp?sn=108",
+      "len": 4442,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_join.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_join.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyWrite.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyWrite.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyApply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyApply.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyForm.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyForm.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyInput.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyInput.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyProc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyProc.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyOk.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyOk.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyInsert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyInsert.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyReg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyReg.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyRequest.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyRequest.asp?sn=108",
+      "len": 4442,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplySubmit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplySubmit.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyJoin.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyJoin.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild.asp?sn=108",
+      "len": 4428,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_write.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_write.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_apply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_apply.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_form.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_form.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_input.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_input.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_proc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_proc.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_ok.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_ok.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_insert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_insert.asp?sn=108",
+      "len": 4442,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_reg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_reg.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_request.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_request.asp?sn=108",
+      "len": 4444,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_submit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_submit.asp?sn=108",
+      "len": 4442,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_join.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_join.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildWrite.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildWrite.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildApply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildApply.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildForm.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildForm.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildInput.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildInput.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildProc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildProc.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildOk.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildOk.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildInsert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildInsert.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildReg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildReg.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildRequest.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildRequest.asp?sn=108",
+      "len": 4442,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildSubmit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildSubmit.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildJoin.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildJoin.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp.asp?sn=108",
+      "len": 4424,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_write.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_write.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_apply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_apply.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_form.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_form.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_input.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_input.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_proc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_proc.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_ok.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_ok.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_insert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_insert.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_reg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_reg.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_request.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_request.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_submit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_submit.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_join.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_join.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppWrite.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppWrite.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppApply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppApply.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppForm.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppForm.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppInput.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppInput.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppProc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppProc.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppOk.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppOk.asp?sn=108",
+      "len": 4428,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppInsert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppInsert.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppReg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppReg.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppRequest.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppRequest.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppSubmit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppSubmit.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppJoin.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppJoin.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg.asp?sn=108",
+      "len": 4424,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_write.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_write.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_apply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_apply.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_form.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_form.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_input.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_input.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_proc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_proc.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_ok.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_ok.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_insert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_insert.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_reg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_reg.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_request.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_request.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_submit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_submit.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_join.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_join.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegWrite.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegWrite.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegApply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegApply.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegForm.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegForm.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegInput.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegInput.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegProc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegProc.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegOk.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegOk.asp?sn=108",
+      "len": 4428,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegInsert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegInsert.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegReg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegReg.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegRequest.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegRequest.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegSubmit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegSubmit.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegJoin.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegJoin.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild.asp?sn=108",
+      "status": 200,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild.asp?sn=108",
+      "len": 36680,
+      "has_form": true,
+      "saved": "logs/preflight_1755172737_161.html"
+    },
+    {
+      "path": "/mypage/Appchild_write.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_write.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_apply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_apply.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_form.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_form.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_input.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_input.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_proc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_proc.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_ok.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_ok.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_insert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_insert.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_reg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_reg.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_request.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_request.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_submit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_submit.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_join.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_join.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildWrite.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildWrite.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildApply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildApply.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildForm.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildForm.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildInput.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildInput.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildProc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildProc.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildOk.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildOk.asp?sn=108",
+      "len": 4428,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildInsert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildInsert.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildReg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildReg.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildRequest.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildRequest.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildSubmit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildSubmit.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildJoin.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildJoin.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild.asp?sn=108",
+      "status": 200,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild.asp?sn=108",
+      "len": 36680,
+      "has_form": true,
+      "saved": "logs/preflight_1755172737_184.html"
+    },
+    {
+      "path": "/mypage/AppChild_write.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_write.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_apply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_apply.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_form.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_form.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_input.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_input.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_proc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_proc.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_ok.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_ok.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_insert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_insert.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_reg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_reg.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_request.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_request.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_submit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_submit.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_join.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_join.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildWrite.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildWrite.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildApply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildApply.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildForm.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildForm.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildInput.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildInput.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildProc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildProc.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildOk.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildOk.asp?sn=108",
+      "len": 4428,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildInsert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildInsert.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildReg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildReg.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildRequest.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildRequest.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildSubmit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildSubmit.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildJoin.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildJoin.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild.asp?sn=108",
+      "status": 200,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild.asp?sn=108",
+      "len": 36680,
+      "has_form": true,
+      "saved": "logs/preflight_1755172737_207.html"
+    },
+    {
+      "path": "/mypage/appchild_write.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_write.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_apply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_apply.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_form.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_form.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_input.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_input.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_proc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_proc.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_ok.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_ok.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_insert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_insert.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_reg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_reg.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_request.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_request.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_submit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_submit.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_join.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_join.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildWrite.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildWrite.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildApply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildApply.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildForm.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildForm.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildInput.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildInput.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildProc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildProc.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildOk.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildOk.asp?sn=108",
+      "len": 4428,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildInsert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildInsert.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildReg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildReg.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildRequest.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildRequest.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildSubmit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildSubmit.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildJoin.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildJoin.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply.asp?sn=108",
+      "len": 4428,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_write.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_write.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_apply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_apply.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_form.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_form.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_input.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_input.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_proc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_proc.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_ok.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_ok.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_insert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_insert.asp?sn=108",
+      "len": 4442,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_reg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_reg.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_request.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_request.asp?sn=108",
+      "len": 4444,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_submit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_submit.asp?sn=108",
+      "len": 4442,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_join.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_join.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyWrite.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyWrite.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyApply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyApply.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyForm.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyForm.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyInput.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyInput.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyProc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyProc.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyOk.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyOk.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyInsert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyInsert.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyReg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyReg.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyRequest.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyRequest.asp?sn=108",
+      "len": 4442,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplySubmit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplySubmit.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyJoin.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyJoin.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild.asp?sn=108",
+      "len": 4428,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_write.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_write.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_apply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_apply.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_form.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_form.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_input.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_input.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_proc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_proc.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_ok.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_ok.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_insert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_insert.asp?sn=108",
+      "len": 4442,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_reg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_reg.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_request.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_request.asp?sn=108",
+      "len": 4444,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_submit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_submit.asp?sn=108",
+      "len": 4442,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_join.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_join.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildWrite.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildWrite.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildApply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildApply.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildForm.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildForm.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildInput.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildInput.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildProc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildProc.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildOk.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildOk.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildInsert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildInsert.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildReg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildReg.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildRequest.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildRequest.asp?sn=108",
+      "len": 4442,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildSubmit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildSubmit.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildJoin.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildJoin.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp.asp?sn=108",
+      "len": 4424,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_write.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_write.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_apply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_apply.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_form.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_form.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_input.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_input.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_proc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_proc.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_ok.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_ok.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_insert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_insert.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_reg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_reg.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_request.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_request.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_submit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_submit.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_join.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_join.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppWrite.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppWrite.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppApply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppApply.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppForm.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppForm.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppInput.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppInput.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppProc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppProc.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppOk.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppOk.asp?sn=108",
+      "len": 4428,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppInsert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppInsert.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppReg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppReg.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppRequest.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppRequest.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppSubmit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppSubmit.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppJoin.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppJoin.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg.asp?sn=108",
+      "len": 4424,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_write.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_write.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_apply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_apply.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_form.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_form.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_input.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_input.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_proc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_proc.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_ok.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_ok.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_insert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_insert.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_reg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_reg.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_request.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_request.asp?sn=108",
+      "len": 4440,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_submit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_submit.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_join.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_join.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegWrite.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegWrite.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegApply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegApply.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegForm.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegForm.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegInput.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegInput.asp?sn=108",
+      "len": 4434,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegProc.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegProc.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegOk.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegOk.asp?sn=108",
+      "len": 4428,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegInsert.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegInsert.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegReg.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegReg.asp?sn=108",
+      "len": 4430,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegRequest.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegRequest.asp?sn=108",
+      "len": 4438,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegSubmit.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegSubmit.asp?sn=108",
+      "len": 4436,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegJoin.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegJoin.asp?sn=108",
+      "len": 4432,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild.asp",
+      "status": 200,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild.asp",
+      "len": 67919,
+      "has_form": true,
+      "saved": "logs/preflight_1755172737_322.html"
+    },
+    {
+      "path": "/parent/Appchild_write.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_write.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_apply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_apply.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_form.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_form.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_input.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_input.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_proc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_proc.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_ok.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_ok.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_insert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_insert.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_reg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_reg.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_request.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_request.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_submit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_submit.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_join.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_join.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildWrite.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildWrite.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildApply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildApply.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildForm.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildForm.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildInput.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildInput.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildProc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildProc.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildOk.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildOk.asp",
+      "len": 4421,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildInsert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildInsert.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildReg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildReg.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildRequest.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildRequest.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildSubmit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildSubmit.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppchildJoin.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppchildJoin.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild.asp",
+      "status": 200,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild.asp",
+      "len": 67919,
+      "has_form": true,
+      "saved": "logs/preflight_1755172737_345.html"
+    },
+    {
+      "path": "/parent/AppChild_write.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_write.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_apply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_apply.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_form.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_form.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_input.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_input.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_proc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_proc.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_ok.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_ok.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_insert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_insert.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_reg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_reg.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_request.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_request.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_submit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_submit.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChild_join.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChild_join.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildWrite.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildWrite.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildApply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildApply.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildForm.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildForm.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildInput.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildInput.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildProc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildProc.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildOk.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildOk.asp",
+      "len": 4421,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildInsert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildInsert.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildReg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildReg.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildRequest.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildRequest.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildSubmit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildSubmit.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/AppChildJoin.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/AppChildJoin.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild.asp",
+      "status": 200,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild.asp",
+      "len": 67919,
+      "has_form": true,
+      "saved": "logs/preflight_1755172737_368.html"
+    },
+    {
+      "path": "/parent/appchild_write.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_write.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_apply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_apply.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_form.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_form.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_input.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_input.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_proc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_proc.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_ok.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_ok.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_insert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_insert.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_reg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_reg.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_request.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_request.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_submit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_submit.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchild_join.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchild_join.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildWrite.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildWrite.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildApply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildApply.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildForm.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildForm.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildInput.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildInput.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildProc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildProc.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildOk.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildOk.asp",
+      "len": 4421,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildInsert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildInsert.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildReg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildReg.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildRequest.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildRequest.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildSubmit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildSubmit.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/appchildJoin.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/appchildJoin.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply.asp",
+      "len": 4421,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_write.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_write.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_apply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_apply.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_form.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_form.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_input.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_input.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_proc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_proc.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_ok.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_ok.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_insert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_insert.asp",
+      "len": 4435,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_reg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_reg.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_request.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_request.asp",
+      "len": 4437,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_submit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_submit.asp",
+      "len": 4435,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApply_join.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApply_join.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyWrite.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyWrite.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyApply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyApply.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyForm.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyForm.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyInput.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyInput.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyProc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyProc.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyOk.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyOk.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyInsert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyInsert.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyReg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyReg.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyRequest.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyRequest.asp",
+      "len": 4435,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplySubmit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplySubmit.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApplyJoin.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApplyJoin.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild.asp",
+      "len": 4421,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_write.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_write.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_apply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_apply.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_form.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_form.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_input.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_input.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_proc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_proc.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_ok.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_ok.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_insert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_insert.asp",
+      "len": 4435,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_reg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_reg.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_request.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_request.asp",
+      "len": 4437,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_submit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_submit.asp",
+      "len": 4435,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChild_join.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChild_join.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildWrite.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildWrite.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildApply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildApply.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildForm.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildForm.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildInput.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildInput.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildProc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildProc.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildOk.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildOk.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildInsert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildInsert.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildReg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildReg.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildRequest.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildRequest.asp",
+      "len": 4435,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildSubmit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildSubmit.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ApplyChildJoin.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ApplyChildJoin.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp.asp",
+      "len": 4417,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_write.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_write.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_apply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_apply.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_form.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_form.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_input.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_input.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_proc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_proc.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_ok.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_ok.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_insert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_insert.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_reg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_reg.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_request.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_request.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_submit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_submit.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildApp_join.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildApp_join.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppWrite.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppWrite.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppApply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppApply.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppForm.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppForm.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppInput.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppInput.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppProc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppProc.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppOk.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppOk.asp",
+      "len": 4421,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppInsert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppInsert.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppReg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppReg.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppRequest.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppRequest.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppSubmit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppSubmit.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildAppJoin.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildAppJoin.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg.asp",
+      "len": 4417,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_write.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_write.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_apply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_apply.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_form.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_form.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_input.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_input.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_proc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_proc.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_ok.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_ok.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_insert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_insert.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_reg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_reg.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_request.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_request.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_submit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_submit.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildReg_join.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildReg_join.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegWrite.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegWrite.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegApply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegApply.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegForm.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegForm.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegInput.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegInput.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegProc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegProc.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegOk.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegOk.asp",
+      "len": 4421,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegInsert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegInsert.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegReg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegReg.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegRequest.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegRequest.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegSubmit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegSubmit.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/parent/ChildRegJoin.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/ChildRegJoin.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild.asp",
+      "status": 200,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild.asp",
+      "len": 36680,
+      "has_form": true,
+      "saved": "logs/preflight_1755172737_483.html"
+    },
+    {
+      "path": "/mypage/Appchild_write.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_write.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_apply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_apply.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_form.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_form.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_input.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_input.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_proc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_proc.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_ok.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_ok.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_insert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_insert.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_reg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_reg.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_request.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_request.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_submit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_submit.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/Appchild_join.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/Appchild_join.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildWrite.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildWrite.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildApply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildApply.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildForm.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildForm.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildInput.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildInput.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildProc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildProc.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildOk.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildOk.asp",
+      "len": 4421,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildInsert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildInsert.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildReg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildReg.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildRequest.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildRequest.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildSubmit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildSubmit.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppchildJoin.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppchildJoin.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild.asp",
+      "status": 200,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild.asp",
+      "len": 36680,
+      "has_form": true,
+      "saved": "logs/preflight_1755172737_506.html"
+    },
+    {
+      "path": "/mypage/AppChild_write.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_write.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_apply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_apply.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_form.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_form.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_input.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_input.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_proc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_proc.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_ok.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_ok.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_insert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_insert.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_reg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_reg.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_request.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_request.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_submit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_submit.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChild_join.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChild_join.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildWrite.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildWrite.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildApply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildApply.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildForm.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildForm.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildInput.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildInput.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildProc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildProc.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildOk.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildOk.asp",
+      "len": 4421,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildInsert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildInsert.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildReg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildReg.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildRequest.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildRequest.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildSubmit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildSubmit.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/AppChildJoin.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/AppChildJoin.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild.asp",
+      "status": 200,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild.asp",
+      "len": 36680,
+      "has_form": true,
+      "saved": "logs/preflight_1755172737_529.html"
+    },
+    {
+      "path": "/mypage/appchild_write.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_write.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_apply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_apply.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_form.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_form.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_input.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_input.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_proc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_proc.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_ok.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_ok.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_insert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_insert.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_reg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_reg.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_request.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_request.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_submit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_submit.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchild_join.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchild_join.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildWrite.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildWrite.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildApply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildApply.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildForm.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildForm.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildInput.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildInput.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildProc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildProc.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildOk.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildOk.asp",
+      "len": 4421,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildInsert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildInsert.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildReg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildReg.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildRequest.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildRequest.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildSubmit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildSubmit.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/appchildJoin.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/appchildJoin.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply.asp",
+      "len": 4421,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_write.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_write.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_apply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_apply.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_form.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_form.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_input.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_input.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_proc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_proc.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_ok.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_ok.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_insert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_insert.asp",
+      "len": 4435,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_reg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_reg.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_request.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_request.asp",
+      "len": 4437,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_submit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_submit.asp",
+      "len": 4435,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApply_join.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApply_join.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyWrite.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyWrite.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyApply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyApply.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyForm.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyForm.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyInput.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyInput.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyProc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyProc.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyOk.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyOk.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyInsert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyInsert.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyReg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyReg.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyRequest.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyRequest.asp",
+      "len": 4435,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplySubmit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplySubmit.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApplyJoin.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApplyJoin.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild.asp",
+      "len": 4421,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_write.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_write.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_apply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_apply.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_form.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_form.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_input.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_input.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_proc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_proc.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_ok.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_ok.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_insert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_insert.asp",
+      "len": 4435,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_reg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_reg.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_request.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_request.asp",
+      "len": 4437,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_submit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_submit.asp",
+      "len": 4435,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChild_join.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChild_join.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildWrite.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildWrite.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildApply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildApply.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildForm.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildForm.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildInput.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildInput.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildProc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildProc.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildOk.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildOk.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildInsert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildInsert.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildReg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildReg.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildRequest.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildRequest.asp",
+      "len": 4435,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildSubmit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildSubmit.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ApplyChildJoin.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ApplyChildJoin.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp.asp",
+      "len": 4417,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_write.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_write.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_apply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_apply.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_form.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_form.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_input.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_input.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_proc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_proc.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_ok.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_ok.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_insert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_insert.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_reg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_reg.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_request.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_request.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_submit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_submit.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildApp_join.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildApp_join.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppWrite.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppWrite.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppApply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppApply.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppForm.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppForm.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppInput.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppInput.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppProc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppProc.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppOk.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppOk.asp",
+      "len": 4421,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppInsert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppInsert.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppReg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppReg.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppRequest.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppRequest.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppSubmit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppSubmit.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildAppJoin.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildAppJoin.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg.asp",
+      "len": 4417,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_write.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_write.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_apply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_apply.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_form.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_form.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_input.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_input.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_proc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_proc.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_ok.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_ok.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_insert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_insert.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_reg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_reg.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_request.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_request.asp",
+      "len": 4433,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_submit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_submit.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildReg_join.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildReg_join.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegWrite.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegWrite.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegApply.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegApply.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegForm.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegForm.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegInput.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegInput.asp",
+      "len": 4427,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegProc.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegProc.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegOk.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegOk.asp",
+      "len": 4421,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegInsert.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegInsert.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegReg.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegReg.asp",
+      "len": 4423,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegRequest.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegRequest.asp",
+      "len": 4431,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegSubmit.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegSubmit.asp",
+      "len": 4429,
+      "has_form": false
+    },
+    {
+      "path": "/mypage/ChildRegJoin.asp",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/mypage/ChildRegJoin.asp",
+      "len": 4425,
+      "has_form": false
+    },
+    {
+      "path": "/parent/Appchild_view.asp?sn=108&mode=apply",
+      "status": 200,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_view.asp?sn=108&mode=apply",
+      "len": 41366,
+      "has_form": true,
+      "saved": "logs/preflight_1755172737_644.html"
+    },
+    {
+      "path": "/parent/Appchild_view.asp?apply=1&sn=108",
+      "status": 200,
+      "final_url": "https://www.sahascc.or.kr/parent/Appchild_view.asp?apply=1&sn=108",
+      "len": 41366,
+      "has_form": true,
+      "saved": "logs/preflight_1755172737_645.html"
+    },
+    {
+      "path": "/parent/apply.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/apply.asp?sn=108",
+      "len": 4418,
+      "has_form": false
+    },
+    {
+      "path": "/parent/apply_ok.asp?sn=108",
+      "status": 404,
+      "final_url": "https://www.sahascc.or.kr/parent/apply_ok.asp?sn=108",
+      "len": 4424,
+      "has_form": false
+    }
+  ]
+}
