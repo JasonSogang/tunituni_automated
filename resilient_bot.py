@@ -18,6 +18,7 @@ from selenium.common.exceptions import (
     NoSuchElementException,
     StaleElementReferenceException,
     ElementClickInterceptedException,
+    WebDriverException,
 )
 
 
@@ -45,6 +46,30 @@ USER_DATA = {
 }
 # =====================================
 
+EVENTS_LOG_PATH = None
+
+def _init_event_log():
+    global EVENTS_LOG_PATH
+    try:
+        os.makedirs("logs", exist_ok=True)
+        ts = int(time.time())
+        EVENTS_LOG_PATH = os.path.join("logs", f"events_{ts}.log")
+    except Exception:
+        EVENTS_LOG_PATH = None
+
+
+def evt(msg: str) -> None:
+    ts = datetime.now().strftime("%H:%M:%S")
+    line = f"[{ts}] {msg}"
+    print(line)
+    if not EVENTS_LOG_PATH:
+        return
+    try:
+        with open(EVENTS_LOG_PATH, "a", encoding="utf-8") as f:
+            f.write(line + "\n")
+    except Exception:
+        pass
+
 def _append_query(url: str, extra: str) -> str:
     if "?" in url:
         if url.endswith("?") or url.endswith("&"):
@@ -53,10 +78,33 @@ def _append_query(url: str, extra: str) -> str:
     return url + ("?" + extra)
 
 
-def build_driver() -> webdriver.Chrome:
+def inject_same_tab_policy(driver) -> None:
+    """Force window.open and target=_blank to stay in same tab to avoid popup switching in headless."""
+    js = r"""
+    try {
+      if (!window.__forceSameTab__) {
+        window.__forceSameTab__ = true;
+        const origOpen = window.open;
+        window.open = function(url){ try { if (url) { window.location.assign(url); } } catch(e) {} return null; };
+        document.addEventListener('click', function(e){
+          const a = e.target && e.target.closest && e.target.closest('a[target="_blank"]');
+          if (a && a.href) { e.preventDefault(); try { window.location.href = a.href; } catch(e) {} }
+        }, true);
+      }
+    } catch (e) {}
+    """
+    try:
+        driver.execute_script(js)
+        evt("[nav] Applied same-tab policy (suppress popups)")
+    except Exception:
+        pass
+
+
+def build_driver(headless: bool = True) -> webdriver.Chrome:
     opts = Options()
     # Headless new is more stable with Chrome >= 109
-    opts.add_argument("--headless=new")
+    if headless:
+        opts.add_argument("--headless=new")
     opts.add_argument("--no-sandbox")
     opts.add_argument("--disable-dev-shm-usage")
     opts.add_argument("--disable-gpu")
@@ -73,9 +121,18 @@ def build_driver() -> webdriver.Chrome:
 
     # Prefer chromedriver from PATH or common locations
     chromedriver_path = shutil.which("chromedriver") or "/usr/bin/chromedriver"
-    if chromedriver_path and os.path.exists(chromedriver_path):
-        service = Service(chromedriver_path)
-        return webdriver.Chrome(service=service, options=opts)
+    # Also allow bundled drivers in workspace venv
+    workspace_candidates = [
+        os.path.join(os.getcwd(), "venv", "chromedriver-Linux64"),
+        os.path.join(os.getcwd(), "venv", "chromedriver"),
+    ]
+    for p in [chromedriver_path] + workspace_candidates:
+        try:
+            if p and os.path.exists(p):
+                service = Service(p)
+                return webdriver.Chrome(service=service, options=opts)
+        except Exception:
+            continue
     # Fallback: try default discovery
     return webdriver.Chrome(options=opts)
 
@@ -106,8 +163,11 @@ def ensure_login(driver, username: str, password: str, timeout=20) -> None:
     submit_buttons = driver.find_elements(By.XPATH, "//input[@type='submit']")
     (submit_buttons[1] if len(submit_buttons) >= 2 else submit_buttons[0]).click()
 
-    wait_alert_and_accept(driver, timeout=5)  # handle potential confirm/alert
+    msg = wait_alert_and_accept(driver, timeout=5)  # handle potential confirm/alert
+    if msg:
+        evt(f"[login] alert: {msg}")
     WebDriverWait(driver, timeout).until(EC.url_changes(LOGIN_URL))
+    evt("[login] OK")
 
 
 def adaptive_sleep_until(start_dt: datetime) -> None:
@@ -244,6 +304,11 @@ def is_rate_limited_message(msg: str) -> bool:
 
 
 def verify_success_on_mypage(driver) -> bool:
+    """Visit MyPage and look for evidence of the target application.
+    Signals: query sn match, or table/link row containing sn, or user/child names.
+    Writes HTML/PNG and a compact JSON summary.
+    """
+    import json as _json
     try:
         from urllib.parse import urlparse, parse_qs
         parsed = urlparse(TARGET_URL)
@@ -251,14 +316,38 @@ def verify_success_on_mypage(driver) -> bool:
         sn = (qs.get('sn') or qs.get('SN') or [None])[0]
     except Exception:
         sn = None
+    summary = {"sn": sn, "found": False, "matches": []}
     try:
         driver.get("https://www.sahascc.or.kr/mypage/Appchild.asp")
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
         page = driver.page_source
-        ok = False
-        if sn and (f"sn={sn}" in page or f"sn={sn}" in (driver.current_url or "")):
-            ok = True
-        # Save verification artifacts
+        # Heuristic: look for any anchor/link containing sn= or target title
+        found = False
+        if sn and (f"sn={sn}" in page):
+            found = True
+            summary["matches"].append({"type": "sn_in_html", "value": sn})
+
+        # Try to parse basic table rows
+        try:
+            rows = driver.find_elements(By.XPATH, "//tr")
+            for r in rows:
+                txt = (r.text or "").strip()
+                if not txt:
+                    continue
+                if sn and (str(sn) in txt):
+                    summary["matches"].append({"type": "row_contains_sn", "value": txt[:120]})
+                    found = True
+                # match by names
+                for key in ("name", "child_name"):
+                    val = (USER_DATA.get(key) or "").strip()
+                    if val and val in txt:
+                        summary["matches"].append({"type": f"row_contains_{key}", "value": txt[:120]})
+                        found = True
+        except Exception:
+            pass
+
+        summary["found"] = bool(found)
+        # Save artifacts
         os.makedirs("logs", exist_ok=True)
         try:
             driver.save_screenshot("logs/verify_mypage.png")
@@ -269,10 +358,15 @@ def verify_success_on_mypage(driver) -> bool:
                 f.write(page)
         except Exception:
             pass
-        print(f"[verify] MyPage contains sn={sn}: {ok}")
-        return ok
+        try:
+            with open("logs/verify_summary.json", "w", encoding="utf-8") as f:
+                _json.dump(summary, f, ensure_ascii=False, indent=2)
+        except Exception:
+            pass
+        evt(f"[verify] MyPage check: sn={sn}, found={found}")
+        return found
     except Exception as e:
-        print(f"[verify] MyPage check error: {e}")
+        evt(f"[verify] MyPage check error: {e}")
         return False
 
 
@@ -301,14 +395,15 @@ def try_direct_apply(driver) -> bool:
             maybe_switch_iframe(driver)
             forms = driver.find_elements(By.TAG_NAME, "form")
             if forms:
-                print(f"[apply-flag] form detected via {url}")
+                evt(f"[apply-flag] form detected via {url}")
                 heuristic_fill_form(driver, forms[0], USER_DATA)
+                agree_all(driver)
                 submitted = submit_current_form(driver)
                 if submitted:
-                    print("[apply-flag] submitted via flagged URL")
+                    evt("[apply-flag] submitted via flagged URL")
                 return submitted
         except Exception as e:
-            print(f"[apply-flag] error with {url}: {e}")
+            evt(f"[apply-flag] error with {url}: {e}")
     return False
 
 
@@ -352,11 +447,19 @@ def safe_click(driver, elem) -> None:
 def switch_to_new_window_if_any(driver, prev_handles: List[str], timeout=3) -> None:
     end = time.time() + timeout
     while time.time() < end:
-        handles = driver.window_handles
+        try:
+            handles = driver.window_handles
+        except Exception:
+            # Driver may have crashed or disconnected; skip switching gracefully
+            print("[driver] Lost connection while checking window handles; skipping switch")
+            return
         if len(handles) > len(prev_handles):
             new_handles = [h for h in handles if h not in prev_handles]
             if new_handles:
-                driver.switch_to.window(new_handles[-1])
+                try:
+                    driver.switch_to.window(new_handles[-1])
+                except Exception:
+                    print("[driver] Unable to switch to new window; continuing")
                 return
         time.sleep(0.1)
 
@@ -382,6 +485,42 @@ def maybe_switch_iframe(driver) -> None:
                 driver.switch_to.default_content()
             except Exception:
                 pass
+
+
+def agree_all(driver) -> None:
+    # Prefer master checkbox if present
+    try:
+        chkall = driver.find_elements(By.CSS_SELECTOR, "#chkall, input[name='chkall']")
+        for c in chkall:
+            if c.is_displayed():
+                try:
+                    if not c.is_selected():
+                        c.click()
+                        evt("[agree] Clicked chkall")
+                except Exception:
+                    pass
+                break
+    except Exception:
+        pass
+    # Ensure agree radios are set to Y
+    try:
+        for name in ("agree1", "agree2", "agree3"):
+            radios = driver.find_elements(By.XPATH, f"//input[@type='radio' and @name='{name}']")
+            # Prefer option with value 'Y'
+            target = None
+            for r in radios:
+                val = (r.get_attribute("value") or "").upper()
+                if val == 'Y':
+                    target = r
+                    break
+            if target and not target.is_selected():
+                try:
+                    target.click()
+                except Exception:
+                    pass
+        evt("[agree] Ensured agree1/2/3 = Y")
+    except Exception:
+        pass
 
 
 def fill_text(elem, value: str) -> None:
@@ -578,68 +717,142 @@ def submit_current_form(driver, timeout=10) -> bool:
                 continue
     # If no form, try a global submit-like control on the page
     try:
+        # Prefer explicit javascript checkIt() anchors (common on this site)
+        anchors = driver.find_elements(By.XPATH, "//a[contains(@href,'checkIt') or contains(.,'신청하기')]")
+        for a in anchors:
+            if a.is_displayed():
+                safe_click(driver, a)
+                wait_alert_and_accept(driver, timeout=3)
+                return True
         b = driver.find_element(By.XPATH, "//button[contains(.,'신청') or contains(.,'제출') or contains(.,'등록') or contains(.,'확인')]")
         safe_click(driver, b)
         wait_alert_and_accept(driver, timeout=3)
         return True
     except Exception:
-        return False
-
-
-def main():
-    start_at_dt: Optional[datetime] = None
-    if START_AT:
+        # Last resort: JS submit if a form exists in DOM
         try:
-            start_at_dt = datetime.fromisoformat(START_AT)
-        except ValueError:
-            print(f"Invalid START_AT format: {START_AT}. Use ISO, e.g., 2025-08-14T20:00:00")
-            sys.exit(1)
+            driver.execute_script("(function(){try{ if(document.myform){document.myform.submit(); return;} var f=document.querySelector('form'); if(f){f.submit();}}catch(e){}})();")
+            wait_alert_and_accept(driver, timeout=3)
+            return True
+        except Exception:
+            return False
 
-    driver = build_driver()
+
+def is_disconnect_error(e: Exception) -> bool:
+    s = str(e).lower()
+    tokens = [
+        "connection refused",
+        "failed to establish",
+        "chrome not reachable",
+        "disconnected",
+        "invalid session id",
+        "cannot connect to chrome",
+    ]
+    return any(t in s for t in tokens)
+
+
+def bot_session(headless: bool = True) -> None:
+    driver = build_driver(headless=headless)
     try:
+        evt("[session] Driver started")
+        # Versions/capabilities
+        try:
+            caps = getattr(driver, 'capabilities', {}) or {}
+            bname = caps.get('browserName')
+            bver = caps.get('browserVersion') or caps.get('version')
+            cinfo = caps.get('chrome') or {}
+            cdver = None
+            if isinstance(cinfo, dict):
+                cdver = cinfo.get('chromedriverVersion')
+            evt(f"[session] Browser {bname} {bver}")
+            if cdver:
+                evt(f"[session] ChromeDriver {cdver}")
+            # Warn if major versions differ grossly
+            try:
+                if bver and cdver:
+                    import re as _re
+                    m1 = _re.match(r"(\d+)", str(bver))
+                    m2 = _re.match(r"(\d+)", str(cdver))
+                    if m1 and m2 and m1.group(1) != m2.group(1):
+                        evt(f"[warn] Chrome/Driver major mismatch: {bver} vs {cdver}")
+            except Exception:
+                pass
+        except Exception:
+            pass
+
         ensure_login(driver, USERNAME, PASSWORD)
-        print("[login] OK")
 
         # Navigate and optionally wait until the scheduled time
         driver.get(TARGET_URL)
-        print(f"[nav] {TARGET_URL}")
+        evt(f"[nav] {TARGET_URL}")
+        inject_same_tab_policy(driver)
+
+        start_at_dt: Optional[datetime] = None
+        if START_AT:
+            try:
+                start_at_dt = datetime.fromisoformat(START_AT)
+            except ValueError:
+                evt(f"Invalid START_AT format: {START_AT}")
+                raise
 
         if start_at_dt:
             pre_time = start_at_dt - timedelta(minutes=5)
             now = datetime.now()
             if now < pre_time:
-                print(f"[wait] Until pre-window {pre_time.isoformat()} (5m before start). Refresh every 10m.")
+                evt(f"[wait] Until pre-window {pre_time.isoformat()} (5m before start). Refresh every 10m.")
                 wait_until_with_refresh(driver, pre_time, refresh_interval_sec=600, start_dt=start_at_dt)
 
         # Phase 2: aggressive watch/click loop from 5m before until 5m after start
-        print("[poll] Aggressive watch from 5m before start (5s cadence)")
+        evt("[poll] Aggressive watch from 5m before start (5s cadence)")
         end_time = (start_at_dt + timedelta(minutes=5)) if start_at_dt else (datetime.now() + timedelta(minutes=30))
         last_refresh = 0.0
         last_flag_try = 0.0
+        rate_backoff = 12
         while datetime.now() < end_time:
             # 5-second refresh cadence with jitter in pre-window
             if time.time() - last_refresh > (5.0 + random.uniform(-1.0, 1.0)):
-                driver.refresh()
+                try:
+                    driver.refresh()
+                except Exception:
+                    evt("[driver] Refresh failed (driver may be gone); retrying later")
                 last_refresh = time.time()
                 time.sleep(0.1)
+                # Re-apply popup suppression after navigation
+                try:
+                    inject_same_tab_policy(driver)
+                except Exception:
+                    pass
+
+            # Lightweight keepalive to detect silent disconnects early
+            try:
+                driver.execute_script("return 1")
+            except Exception as e:
+                if is_disconnect_error(e):
+                    raise
+                evt(f"[driver] Non-fatal script error: {e}")
 
             apply_el = find_apply_element(driver)
             if apply_el:
-                print("[state] '신청' detected — attempting to click")
-                pre_handles = driver.window_handles[:]
+                evt("[state] '신청' detected — attempting to click")
+                try:
+                    pre_handles = driver.window_handles[:]
+                except Exception:
+                    evt("[driver] Could not read window handles before click; continuing without switch aid")
+                    pre_handles = []
                 safe_click(driver, apply_el)
                 msg = wait_alert_and_accept(driver, timeout=1)
                 if msg:
-                    print(f"[alert] {msg}")
+                    evt(f"[alert] {msg}")
                     if is_rate_limited_message(msg):
-                        print("[backoff] Rate-limited, sleeping 12s")
-                        time.sleep(12)
+                        evt(f"[backoff] Rate-limited, sleeping {rate_backoff}s")
+                        time.sleep(rate_backoff)
+                        rate_backoff = min(rate_backoff * 2, 60)
                         continue
                 switch_to_new_window_if_any(driver, pre_handles, timeout=2)
                 maybe_switch_iframe(driver)
                 # CAPTCHA detection
                 if detect_captcha(driver):
-                    print("[captcha] Detected. Saving snapshot and backing off 30s")
+                    evt("[captcha] Detected. Saving snapshot and backing off 30s")
                     try:
                         with open("logs/captcha_page.html", "w", encoding="utf-8") as f:
                             f.write(driver.page_source)
@@ -662,32 +875,23 @@ def main():
             # very small backoff
             time.sleep(0.2)
         else:
-            print("[timeout] '신청' state did not appear in time")
+            evt("[timeout] '신청' state did not appear in time")
             return
 
         # At this point, either a confirmation flow or a form is expected
-        print("[followup] Handling follow-up flow")
+        evt("[followup] Handling follow-up flow")
 
         # If redirected to a form page, fill heuristically
-        # Try multiple times to allow dynamic content to load
-        for _ in range(2):
+        for _ in range(3):
             try:
                 forms = driver.find_elements(By.TAG_NAME, "form")
                 if forms:
-                    print(f"[form] Found {len(forms)} form(s) — filling heuristically")
+                    evt(f"[form] Found {len(forms)} form(s) — filling heuristically")
                     heuristic_fill_form(driver, forms[0], USER_DATA)
-                    # Attempt to check common consent checkboxes outside forms too
-                    for cb in driver.find_elements(By.XPATH, "//input[@type='checkbox']"):
-                        name = (cb.get_attribute("name") or "").lower()
-                        pid = (cb.get_attribute("id") or "").lower()
-                        lbl = label_text_for(driver, cb).lower()
-                        if any(k in (name + pid + lbl) for k in ["agree", "동의", "약관", "개인정보", "동의함"]):
-                            try:
-                                if not cb.is_selected():
-                                    cb.click()
-                            except Exception:
-                                pass
+                    agree_all(driver)
                     break
+                # Wait a moment for dynamic content
+                WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.XPATH, "//form | //a[contains(@href,'checkIt')]")))
             except Exception:
                 pass
             time.sleep(0.5)
@@ -695,32 +899,31 @@ def main():
         # Try to submit
         submitted = submit_current_form(driver)
         if submitted:
-            print("[submit] Submission attempted — waiting for result")
+            evt("[submit] Submission attempted — waiting for result")
             # Wait for an alert/redirect indicating success or failure
             msg = wait_alert_and_accept(driver, timeout=3)
             if msg:
-                print(f"[result] {msg}")
+                evt(f"[result] {msg}")
                 if is_rate_limited_message(msg):
-                    print("[backoff] Rate-limited on submit, sleeping 12s")
+                    evt("[backoff] Rate-limited on submit, sleeping 12s")
                     time.sleep(12)
             # Verify on MyPage
             verify_success_on_mypage(driver)
             # Give time for redirect if any
             time.sleep(1)
         else:
-            print("[submit] Could not find a submit control — trying direct apply flags.")
+            evt("[submit] Could not find a submit control — trying direct apply flags.")
             if try_direct_apply(driver):
-                print("[submit] Completed via apply flags.")
-                # Verify on MyPage
+                evt("[submit] Completed via apply flags.")
                 verify_success_on_mypage(driver)
             else:
-                print("[submit] No form via flags — manual review may be needed.")
+                evt("[submit] No form via flags — manual review may be needed.")
 
         # Persist the final page for auditing
         try:
             with open("submission_result.html", "w", encoding="utf-8") as f:
                 f.write(driver.page_source)
-            print("[save] Wrote submission_result.html")
+            evt("[save] Wrote submission_result.html")
         except Exception:
             pass
 
@@ -728,9 +931,9 @@ def main():
         try:
             perf_file = dump_performance_logs(driver, label_prefix="har")
             if perf_file:
-                print(f"[har] Wrote {perf_file}")
+                evt(f"[har] Wrote {perf_file}")
             else:
-                print("[har] No performance logs available")
+                evt("[har] No performance logs available")
         except Exception:
             pass
 
@@ -739,6 +942,44 @@ def main():
             driver.quit()
         except Exception:
             pass
+
+
+
+def main():
+    import argparse
+    global START_AT, TARGET_URL
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--no-headless", action="store_true", help="Run browser with UI visible")
+    parser.add_argument("--start-at", default=None, help="Start time ISO (KST)")
+    parser.add_argument("--target-url", default=None, help="Override target URL")
+    parser.add_argument("--max-restarts", type=int, default=2, help="Max driver restarts on disconnect")
+    args = parser.parse_args()
+
+    if args.start_at:
+        START_AT = args.start_at
+    if args.target_url:
+        TARGET_URL = args.target_url
+
+    _init_event_log()
+    headless = not args.no_headless
+
+    max_restarts = max(0, int(args.max_restarts))
+    for attempt in range(max_restarts + 1):
+        try:
+            bot_session(headless=headless)
+            break
+        except WebDriverException as e:
+            if is_disconnect_error(e) and attempt < max_restarts:
+                evt(f"[recover] Driver disconnected: {e}. Restarting session ({attempt+1}/{max_restarts})")
+                time.sleep(1)
+                continue
+            raise
+        except Exception as e:
+            if is_disconnect_error(e) and attempt < max_restarts:
+                evt(f"[recover] Connection issue: {e}. Restarting session ({attempt+1}/{max_restarts})")
+                time.sleep(1)
+                continue
+            raise
 
 
 if __name__ == "__main__":
