@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+
+# Logs and run artifacts
+logs/
+submission_result.html
+
+# OS/IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Node/npm (if any)
+node_modules/
+package-lock.json
+
